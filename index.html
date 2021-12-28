@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>pionior bank</title>
+   
+</head>
+<body>
+    
+<div class="container">
+    <h2 class="title1">Saved your money</h2>
+ <div id="main_div" class="under_div">
+    <h1 class="title2">Pioneer bank Official</h1>
+    <input class="form-control mb-1" type="text" placeholder="Enter @UserNAme">
+    <input class="form-control" type="password" placeholder="Enter Password">
+    <br>
+    <button id="login" class="btn btn-success">Enter</button>
+ </div>    
+
+
+ <!--  second part start  -->
+
+  <div id="second_div" class="second_div">
+    <h1 class="mb-4 h1">Pioneer Bank Official </h1>
+    <div class="row">
+       <div class="col-md-4 mt-2">
+         <div class="first">
+            <h1>Ballance</h1>
+            <h1>$ <span id="depo_ballance">00</span> </h1>
+         </div>
+       </div>
+       <div class="col-md-4  mt-2 ">
+        <div class="second">
+            <h1>Withdraw</h1>
+            <h1>$ <span id="withdrawBallance">00</span></h1>
+        </div>
+       </div>
+       <div class="col-md-4  mt-2">
+        <div class="third">
+            <h1>Total Ballance</h1>
+            <h1>$ <span id="total_amount">1200</span> </h1>
+        </div>
+       </div>
+    </div>
+
+    <!--deposite area -->
+    <div id="deposit_area" class="diposit_area mt-3">
+        <div class="row">
+            <div class="col-md-6">
+            <div class="single">
+                <h2>Deposit</h2>
+                <input id="deposit_Value" class="form-control" type="text" placeholder="$ Deposit Your Ammount">
+                <br>
+                <button  id="deposit_btn" class="btn btn-success">Deposit</button>
+            </div>
+            </div>
+            <div class="col-md-6">
+                <div class="single2">
+                    <h2>Withdraw</h2>
+                    <input id="withdraw_value" class="form-control" type="text" placeholder="$ Withdraw Your Ammount">
+                    <br>
+                    <button id="widthdrw_btn" class="btn btn-success">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div> <!-- conatiner  end-->
+
+<div class="footer">
+    <h4>All reserved By <a href="https://www.facebook.com/Ab-Rahim-2356570211333190">Abdur Rahim</a></h4>
+</div>
+    <script src="test.js"></script>
+</body>
+</html>
